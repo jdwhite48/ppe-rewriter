@@ -1,0 +1,18 @@
+# library
+[package]
+name = "ppe_rewriter"
+version = "0.1.0"
+authors = ["Jacob White <white570@purdue.edu>"]
+edition = "2018"
+license = "MIT"
+description = "A library for automatically rewriting pairing-product equations (PPEs) into a canonical form, ala Groth-Sahai"
+repository = "https://github.com/jdwhite48/ppe-rewriter"
+readme = "README.md"
+
+keywords = ["PPE", "term-rewriting", "e-graphs", "bilinear-pairings", "bilinear-maps"]
+categories = ["data-structures", "mathematics"]
+include = ["Cargo.toml", "src", "README.md", "LICENSE"]
+
+
+[dependencies]
+egg = "0.9.3"
